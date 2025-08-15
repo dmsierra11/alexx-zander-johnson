@@ -10,7 +10,7 @@ export function AboutSection() {
 
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
           {/* Portrait Image */}
-          <div className="order-2 lg:order-1">
+          <div className="order-1 lg:order-1">
             <div className="relative">
               <div className="aspect-square rounded-2xl overflow-hidden bg-gradient-to-br from-neon-purple/20 to-neon-teal/20 p-1">
                 <img
@@ -26,7 +26,7 @@ export function AboutSection() {
           </div>
 
           {/* Bio Text */}
-          <div className="order-1 lg:order-2 space-y-6">
+          <div className="order-2 lg:order-2 space-y-6">
             <div className="prose prose-lg text-foreground">
               <p className="text-xl leading-relaxed mb-6">
                 From the industrial heart of{" "}
