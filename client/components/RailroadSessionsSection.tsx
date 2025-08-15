@@ -99,7 +99,7 @@ export function RailroadSessionsSection() {
                   variant="ghost"
                   size="sm"
                   className="w-full text-neon-teal hover:text-neon-teal hover:bg-neon-teal/10"
-                  onClick={() => window.open('https://www.di.fm/shows/railroad-sessions', '_blank')}
+                  onClick={() => window.open(ep.url, '_blank')}
                 >
                   <Play className="w-4 h-4 mr-2" />
                   Listen Now
