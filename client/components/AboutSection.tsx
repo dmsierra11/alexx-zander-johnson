@@ -38,7 +38,7 @@ export function AboutSection() {
               <p className="text-lg leading-relaxed mb-6 text-muted-foreground">
                 His breakthrough came after winning a DJ contest at <span className="text-neon-teal font-semibold">Decadance</span>,
                 one of Europe's most respected electronic music events. This pivotal moment launched a career
-                that would see him become a resident at <span className="text-neon-purple font-semibold">Phasefour Ghent</span>
+                that would see him become a resident at <span className="text-neon-purple font-semibold">Bejaus Cafè</span>
                 on Urgent.fm, where he honed his signature sound.
               </p>
 
