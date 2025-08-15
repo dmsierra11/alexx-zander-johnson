@@ -24,8 +24,8 @@ export function RailroadSessionsSection() {
                 <Radio className="w-6 h-6 text-neon-purple" />
               </div>
               <div>
-                <h3 className="text-2xl font-bold text-foreground">Weekly Radio Show</h3>
-                <p className="text-neon-teal">Live on DI.FM</p>
+                <h3 className="text-2xl font-bold text-foreground">Monthly Radio Show</h3>
+                <p className="text-neon-teal">Every 2nd Friday • 22:00 - 0:00 CET</p>
               </div>
             </div>
 
