@@ -60,6 +60,15 @@ export default {
           border: "hsl(var(--sidebar-border))",
           ring: "hsl(var(--sidebar-ring))",
         },
+        neon: {
+          purple: "hsl(var(--neon-purple))",
+          teal: "hsl(var(--neon-teal))",
+        },
+        cinematic: {
+          black: "hsl(var(--cinematic-black))",
+          dark: "hsl(var(--cinematic-dark))",
+          gray: "hsl(var(--cinematic-gray))",
+        },
       },
       borderRadius: {
         lg: "var(--radius)",
