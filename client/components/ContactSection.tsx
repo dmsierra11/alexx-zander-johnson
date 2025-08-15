@@ -66,9 +66,9 @@ export function ContactSection() {
   };
 
   return (
-    <section id="contact" className="py-20 px-6">
+    <section id="contact" className="py-12 md:py-20 px-4 md:px-6">
       <div className="container mx-auto max-w-6xl">
-        <div className="text-center mb-16">
+        <div className="text-center mb-8 md:mb-16">
           <h2 className="text-4xl md:text-5xl font-bold mb-4">
             <span className="text-gradient">Get in Touch</span>
           </h2>
@@ -78,7 +78,7 @@ export function ContactSection() {
           </p>
         </div>
 
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 md:gap-12">
           {/* Contact Form */}
           <Card className="bg-card/30 border-border/20">
             <CardContent className="p-8">
