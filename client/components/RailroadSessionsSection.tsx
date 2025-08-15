@@ -37,12 +37,12 @@ export function RailroadSessionsSection() {
 
             <div className="grid grid-cols-2 gap-4">
               <div className="bg-card/30 border border-border/20 rounded-lg p-4">
-                <h4 className="font-semibold text-neon-purple mb-1">Frequency</h4>
-                <p className="text-muted-foreground">Weekly</p>
+                <h4 className="font-semibold text-neon-purple mb-1">Schedule</h4>
+                <p className="text-muted-foreground">2nd Friday/Month</p>
               </div>
               <div className="bg-card/30 border border-border/20 rounded-lg p-4">
-                <h4 className="font-semibold text-neon-teal mb-1">Platform</h4>
-                <p className="text-muted-foreground">DI.FM</p>
+                <h4 className="font-semibold text-neon-teal mb-1">Time</h4>
+                <p className="text-muted-foreground">22:00 - 0:00 CET</p>
               </div>
             </div>
 
