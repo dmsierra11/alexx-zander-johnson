@@ -145,7 +145,6 @@ export function RailroadRecordingsSection() {
                 </div>
                 
                 <div className="p-4">
-                  <p className="text-neon-teal text-sm font-semibold mb-1">{release.catalogNumber}</p>
                   <h4 className="font-bold text-foreground mb-1 group-hover:text-neon-teal transition-colors">
                     {release.title}
                   </h4>
