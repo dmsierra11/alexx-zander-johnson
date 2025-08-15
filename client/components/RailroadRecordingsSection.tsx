@@ -100,10 +100,10 @@ export function RailroadRecordingsSection() {
           <Card className="bg-card/20 border-border/20 overflow-hidden">
             <CardContent className="p-0">
               <div className="relative aspect-square bg-gradient-to-br from-neon-teal/20 to-neon-purple/20">
-                <img 
-                  src="https://images.unsplash.com/photo-1598488035139-bdbb2231ce04?w=600&h=600&fit=crop" 
+                <img
+                  src="https://cdn.builder.io/api/v1/image/assets%2Fb483dd511682401f9f00211e632d2fcf%2F3f15788da5894b2bb5799224f7f1e779?format=webp&width=800"
                   alt="Railroad Recordings logo"
-                  className="w-full h-full object-cover opacity-60"
+                  className="w-full h-full object-cover opacity-90"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-cinematic-black/90 via-cinematic-black/30 to-transparent"></div>
                 <div className="absolute bottom-6 left-6 right-6">
