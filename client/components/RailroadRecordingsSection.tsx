@@ -16,28 +16,28 @@ const releases: Release[] = [
   {
     id: '1',
     title: 'Make Love Not War',
-    artist: 'Railroad Recordings',
-    coverArt: 'https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?w=400&h=400&fit=crop',
+    artist: 'Zarder & SINUENO TRIBUTE',
+    coverArt: 'https://cdn.builder.io/api/v1/image/assets%2Fb483dd511682401f9f00211e632d2fcf%2Ff5f64c4fe0e14fae8614e9d4ee175c47?format=webp&width=800',
     releaseDate: '2024',
-    catalogNumber: 'RR004',
+    catalogNumber: 'RRR092',
     url: 'https://www.beatport.com/es/release/make-love-not-war/4833256'
   },
   {
     id: '2',
     title: 'Best of Both Worlds EP',
-    artist: 'Railroad Recordings',
-    coverArt: 'https://images.unsplash.com/photo-1571330735066-03aaa9429d89?w=400&h=400&fit=crop',
+    artist: 'Sjoerd Schouten',
+    coverArt: 'https://cdn.builder.io/api/v1/image/assets%2Fb483dd511682401f9f00211e632d2fcf%2Ffe52eab4c25943e3b67b02739b339ff0?format=webp&width=800',
     releaseDate: '2024',
-    catalogNumber: 'RR003',
+    catalogNumber: 'RRR091',
     url: 'https://www.beatport.com/es/release/best-of-both-worlds-ep/4520011'
   },
   {
     id: '3',
-    title: 'Lopez EP',
-    artist: 'Railroad Recordings',
-    coverArt: 'https://images.unsplash.com/photo-1511379938547-c1f69419868d?w=400&h=400&fit=crop',
+    title: 'López EP',
+    artist: 'Klausgreen',
+    coverArt: 'https://cdn.builder.io/api/v1/image/assets%2Fb483dd511682401f9f00211e632d2fcf%2F13edc00e6ff04b9ba8e6cef7e54446ce?format=webp&width=800',
     releaseDate: '2024',
-    catalogNumber: 'RR002',
+    catalogNumber: 'RRR090',
     url: 'https://www.beatport.com/es/release/lopez-ep/4310433'
   }
 ];
