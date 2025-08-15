@@ -70,11 +70,7 @@ export function RailroadSessionsSection() {
                   <h4 className="text-xl font-bold text-foreground mb-2">Underground Soundscapes</h4>
                   <p className="text-muted-foreground">Curated monthly by Alexx Zander Johnson</p>
                 </div>
-                <div className="absolute top-6 right-6">
-                  <div className="w-12 h-12 bg-neon-purple/20 backdrop-blur-sm rounded-full flex items-center justify-center">
-                    <Play className="w-6 h-6 text-neon-purple" />
-                  </div>
-                </div>
+                
               </div>
             </CardContent>
           </Card>
