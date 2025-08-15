@@ -135,18 +135,6 @@ export function ContactSection() {
                   {isSubmitting ? 'Sending...' : 'Send Message'}
                 </Button>
               </form>
-              
-              <div className="mt-6 pt-6 border-t border-border/20">
-                <p className="text-sm text-muted-foreground">
-                  Direct booking inquiries: 
-                  <a 
-                    href="mailto:bookings@alexxzanderjohnson.com" 
-                    className="text-neon-teal hover:text-neon-teal/80 ml-1"
-                  >
-                    bookings@alexxzanderjohnson.com
-                  </a>
-                </p>
-              </div>
             </CardContent>
           </Card>
 
