@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
 
 @tailwind base;
 @tailwind components;
@@ -105,14 +105,22 @@
 
   body {
     @apply bg-cinematic-black text-foreground font-sans antialiased;
-    background: linear-gradient(135deg, hsl(var(--cinematic-black)) 0%, hsl(var(--cinematic-dark)) 100%);
+    background: linear-gradient(
+      135deg,
+      hsl(var(--cinematic-black)) 0%,
+      hsl(var(--cinematic-dark)) 100%
+    );
     min-height: 100vh;
   }
 }
 
 @layer utilities {
   .text-gradient {
-    background: linear-gradient(135deg, hsl(var(--neon-purple)) 0%, hsl(var(--neon-teal)) 100%);
+    background: linear-gradient(
+      135deg,
+      hsl(var(--neon-purple)) 0%,
+      hsl(var(--neon-teal)) 100%
+    );
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;

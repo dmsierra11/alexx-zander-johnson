@@ -1,6 +1,6 @@
-import { Button } from './ui/button';
-import { Card, CardContent } from './ui/card';
-import { Disc3, ExternalLink, Users, Headphones } from 'lucide-react';
+import { Button } from "./ui/button";
+import { Card, CardContent } from "./ui/card";
+import { Disc3, ExternalLink, Users, Headphones } from "lucide-react";
 
 interface Release {
   id: string;
@@ -14,32 +14,35 @@ interface Release {
 
 const releases: Release[] = [
   {
-    id: '1',
-    title: 'Make Love Not War',
-    artist: 'Zarder & SINUENO TRIBUTE',
-    coverArt: 'https://cdn.builder.io/api/v1/image/assets%2Fb483dd511682401f9f00211e632d2fcf%2Ff5f64c4fe0e14fae8614e9d4ee175c47?format=webp&width=800',
-    releaseDate: '2024',
-    catalogNumber: 'RRR092',
-    url: 'https://www.beatport.com/es/release/make-love-not-war/4833256'
+    id: "1",
+    title: "Make Love Not War",
+    artist: "Zarder & SINUENO TRIBUTE",
+    coverArt:
+      "https://cdn.builder.io/api/v1/image/assets%2Fb483dd511682401f9f00211e632d2fcf%2Ff5f64c4fe0e14fae8614e9d4ee175c47?format=webp&width=800",
+    releaseDate: "2024",
+    catalogNumber: "RRR092",
+    url: "https://www.beatport.com/es/release/make-love-not-war/4833256",
   },
   {
-    id: '2',
-    title: 'Best of Both Worlds EP',
-    artist: 'Sjoerd Schouten',
-    coverArt: 'https://cdn.builder.io/api/v1/image/assets%2Fb483dd511682401f9f00211e632d2fcf%2Ffe52eab4c25943e3b67b02739b339ff0?format=webp&width=800',
-    releaseDate: '2024',
-    catalogNumber: 'RRR091',
-    url: 'https://www.beatport.com/es/release/best-of-both-worlds-ep/4520011'
+    id: "2",
+    title: "Best of Both Worlds EP",
+    artist: "Sjoerd Schouten",
+    coverArt:
+      "https://cdn.builder.io/api/v1/image/assets%2Fb483dd511682401f9f00211e632d2fcf%2Ffe52eab4c25943e3b67b02739b339ff0?format=webp&width=800",
+    releaseDate: "2024",
+    catalogNumber: "RRR091",
+    url: "https://www.beatport.com/es/release/best-of-both-worlds-ep/4520011",
   },
   {
-    id: '3',
-    title: 'López EP',
-    artist: 'Klausgreen',
-    coverArt: 'https://cdn.builder.io/api/v1/image/assets%2Fb483dd511682401f9f00211e632d2fcf%2F13edc00e6ff04b9ba8e6cef7e54446ce?format=webp&width=800',
-    releaseDate: '2024',
-    catalogNumber: 'RRR090',
-    url: 'https://www.beatport.com/es/release/lopez-ep/4310433'
-  }
+    id: "3",
+    title: "López EP",
+    artist: "Klausgreen",
+    coverArt:
+      "https://cdn.builder.io/api/v1/image/assets%2Fb483dd511682401f9f00211e632d2fcf%2F13edc00e6ff04b9ba8e6cef7e54446ce?format=webp&width=800",
+    releaseDate: "2024",
+    catalogNumber: "RRR090",
+    url: "https://www.beatport.com/es/release/lopez-ep/4310433",
+  },
 ];
 
 export function RailroadRecordingsSection() {
@@ -51,8 +54,9 @@ export function RailroadRecordingsSection() {
             <span className="text-gradient">Railroad Recordings</span>
           </h2>
           <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
-            An independent label dedicated to pushing the boundaries of underground electronic music, 
-            founded by Alexx to showcase emerging and established artists.
+            An independent label dedicated to pushing the boundaries of
+            underground electronic music, founded by Alexx to showcase emerging
+            and established artists.
           </p>
         </div>
 
@@ -64,17 +68,20 @@ export function RailroadRecordingsSection() {
                 <Disc3 className="w-6 h-6 text-neon-teal" />
               </div>
               <div>
-                <h3 className="text-2xl font-bold text-foreground">Independent Label</h3>
+                <h3 className="text-2xl font-bold text-foreground">
+                  Independent Label
+                </h3>
                 <p className="text-neon-purple">Est. 2023</p>
               </div>
             </div>
 
             <p className="text-lg text-muted-foreground leading-relaxed">
-              Railroad Recordings was born from Alexx's vision to create a platform for 
-              underground electronic music that doesn't compromise on artistic integrity. 
-              The label focuses on progressive house, minimal, and techno, providing a home for 
-              both emerging talents and established artists who share the same passion 
-              for pushing sonic boundaries.
+              Railroad Recordings was born from Alexx's vision to create a
+              platform for underground electronic music that doesn't compromise
+              on artistic integrity. The label focuses on progressive house,
+              minimal, and techno, providing a home for both emerging talents
+              and established artists who share the same passion for pushing
+              sonic boundaries.
             </p>
 
             <div className="grid grid-cols-3 gap-4">
@@ -107,8 +114,12 @@ export function RailroadRecordingsSection() {
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-cinematic-black/90 via-cinematic-black/30 to-transparent"></div>
                 <div className="absolute bottom-6 left-6 right-6">
-                  <h4 className="text-2xl font-bold text-gradient mb-2">Railroad Recordings</h4>
-                  <p className="text-muted-foreground">Underground Electronic Music</p>
+                  <h4 className="text-2xl font-bold text-gradient mb-2">
+                    Railroad Recordings
+                  </h4>
+                  <p className="text-muted-foreground">
+                    Underground Electronic Music
+                  </p>
                 </div>
               </div>
             </CardContent>
@@ -117,19 +128,21 @@ export function RailroadRecordingsSection() {
 
         {/* Latest Releases */}
         <div className="text-center mb-8">
-          <h3 className="text-2xl font-bold text-foreground mb-4">Latest Releases</h3>
+          <h3 className="text-2xl font-bold text-foreground mb-4">
+            Latest Releases
+          </h3>
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-12">
           {releases.map((release) => (
-            <Card 
-              key={release.id} 
+            <Card
+              key={release.id}
               className="group bg-card/30 border-border/20 hover:border-neon-teal/30 transition-all duration-300 overflow-hidden"
             >
               <CardContent className="p-0">
                 <div className="relative aspect-square overflow-hidden">
-                  <img 
-                    src={release.coverArt} 
+                  <img
+                    src={release.coverArt}
                     alt={release.title}
                     className="w-full h-full object-cover transition-transform duration-300 group-hover:scale-105"
                   />
@@ -137,19 +150,23 @@ export function RailroadRecordingsSection() {
                     <Button
                       size="icon"
                       className="opacity-0 group-hover:opacity-100 bg-neon-teal hover:bg-neon-teal/80 transition-all duration-300 glow-teal"
-                      onClick={() => window.open(release.url, '_blank')}
+                      onClick={() => window.open(release.url, "_blank")}
                     >
                       <ExternalLink className="w-6 h-6" />
                     </Button>
                   </div>
                 </div>
-                
+
                 <div className="p-4">
                   <h4 className="font-bold text-foreground mb-1 group-hover:text-neon-teal transition-colors">
                     {release.title}
                   </h4>
-                  <p className="text-muted-foreground text-sm mb-2">{release.artist}</p>
-                  <p className="text-muted-foreground text-xs">{release.releaseDate}</p>
+                  <p className="text-muted-foreground text-sm mb-2">
+                    {release.artist}
+                  </p>
+                  <p className="text-muted-foreground text-xs">
+                    {release.releaseDate}
+                  </p>
                 </div>
               </CardContent>
             </Card>
@@ -161,7 +178,12 @@ export function RailroadRecordingsSection() {
             variant="outline"
             size="lg"
             className="border-neon-teal text-neon-teal hover:bg-neon-teal hover:text-black px-8 py-3 font-semibold mr-4"
-            onClick={() => window.open('https://www.beatport.com/label/railroad-recordings/50502', '_blank')}
+            onClick={() =>
+              window.open(
+                "https://www.beatport.com/label/railroad-recordings/50502",
+                "_blank",
+              )
+            }
           >
             <ExternalLink className="w-4 h-4 mr-2" />
             View Catalog on Beatport
@@ -170,7 +192,9 @@ export function RailroadRecordingsSection() {
             variant="outline"
             size="lg"
             className="border-neon-purple text-neon-purple hover:bg-neon-purple hover:text-white px-8 py-3 font-semibold"
-            onClick={() => window.open('mailto:demos@railroadrecordings.com', '_blank')}
+            onClick={() =>
+              window.open("mailto:demos@railroadrecordings.com", "_blank")
+            }
           >
             Submit Demo
           </Button>

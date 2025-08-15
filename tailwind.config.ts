@@ -13,7 +13,13 @@ export default {
       },
     },
     fontFamily: {
-      sans: ['Poppins', 'Inter', '-apple-system', 'BlinkMacSystemFont', 'sans-serif'],
+      sans: [
+        "Poppins",
+        "Inter",
+        "-apple-system",
+        "BlinkMacSystemFont",
+        "sans-serif",
+      ],
     },
     extend: {
       colors: {

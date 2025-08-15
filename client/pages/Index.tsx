@@ -1,8 +1,8 @@
-import { HeroSection } from '../components/HeroSection';
-import { RailroadSessionsSection } from '../components/RailroadSessionsSection';
-import { RailroadRecordingsSection } from '../components/RailroadRecordingsSection';
-import { AboutSection } from '../components/AboutSection';
-import { ContactSection } from '../components/ContactSection';
+import { HeroSection } from "../components/HeroSection";
+import { RailroadSessionsSection } from "../components/RailroadSessionsSection";
+import { RailroadRecordingsSection } from "../components/RailroadRecordingsSection";
+import { AboutSection } from "../components/AboutSection";
+import { ContactSection } from "../components/ContactSection";
 
 export default function Index() {
   return (
@@ -10,7 +10,7 @@ export default function Index() {
       <HeroSection />
       <AboutSection />
       <RailroadSessionsSection />
-      <RailroadRecordingsSection />      
+      <RailroadRecordingsSection />
       <ContactSection />
     </div>
   );

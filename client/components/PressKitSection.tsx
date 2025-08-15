@@ -1,6 +1,6 @@
-import { Button } from './ui/button';
-import { Card, CardContent } from './ui/card';
-import { Download, FileImage, FileType, FileText } from 'lucide-react';
+import { Button } from "./ui/button";
+import { Card, CardContent } from "./ui/card";
+import { Download, FileImage, FileType, FileText } from "lucide-react";
 
 interface PressKitItem {
   id: string;
@@ -13,29 +13,29 @@ interface PressKitItem {
 
 const pressKitItems: PressKitItem[] = [
   {
-    id: '1',
-    title: 'Press Photos',
-    description: 'High-resolution promotional photos (ZIP archive)',
+    id: "1",
+    title: "Press Photos",
+    description: "High-resolution promotional photos (ZIP archive)",
     icon: <FileImage className="w-6 h-6" />,
-    downloadUrl: '/downloads/alexx-press-photos.zip',
-    fileSize: '25.4 MB'
+    downloadUrl: "/downloads/alexx-press-photos.zip",
+    fileSize: "25.4 MB",
   },
   {
-    id: '2',
-    title: 'Logo Pack',
-    description: 'Logos and brand assets in various formats',
+    id: "2",
+    title: "Logo Pack",
+    description: "Logos and brand assets in various formats",
     icon: <FileType className="w-6 h-6" />,
-    downloadUrl: '/downloads/alexx-logo-pack.zip',
-    fileSize: '8.2 MB'
+    downloadUrl: "/downloads/alexx-logo-pack.zip",
+    fileSize: "8.2 MB",
   },
   {
-    id: '3',
-    title: 'Bio PDF',
-    description: 'Complete artist biography and press information',
+    id: "3",
+    title: "Bio PDF",
+    description: "Complete artist biography and press information",
     icon: <FileText className="w-6 h-6" />,
-    downloadUrl: '/downloads/alexx-bio.pdf',
-    fileSize: '1.8 MB'
-  }
+    downloadUrl: "/downloads/alexx-bio.pdf",
+    fileSize: "1.8 MB",
+  },
 ];
 
 export function PressKitSection() {
@@ -63,7 +63,7 @@ export function PressKitSection() {
 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-12">
           {pressKitItems.map((item) => (
-            <Card 
+            <Card
               key={item.id}
               className="bg-card/30 border-border/20 hover:border-neon-purple/30 transition-all duration-300 group"
             >
@@ -73,19 +73,17 @@ export function PressKitSection() {
                     {item.icon}
                   </div>
                 </div>
-                
+
                 <h3 className="text-xl font-bold text-foreground mb-2">
                   {item.title}
                 </h3>
-                
+
                 <p className="text-muted-foreground text-sm mb-2">
                   {item.description}
                 </p>
-                
-                <p className="text-xs text-neon-teal mb-4">
-                  {item.fileSize}
-                </p>
-                
+
+                <p className="text-xs text-neon-teal mb-4">{item.fileSize}</p>
+
                 <Button
                   className="w-full bg-neon-purple hover:bg-neon-purple/80 text-white font-semibold glow-purple transition-all duration-300"
                   onClick={() => handleDownload(item.downloadUrl, item.title)}
@@ -104,9 +102,10 @@ export function PressKitSection() {
               Usage Guidelines
             </h3>
             <p className="text-muted-foreground text-sm">
-              These materials are provided exclusively for promotional and media purposes. 
-              Please credit "Alexx Zander Johnson" when using any assets. For licensing 
-              or commercial use inquiries, please contact our booking team.
+              These materials are provided exclusively for promotional and media
+              purposes. Please credit "Alexx Zander Johnson" when using any
+              assets. For licensing or commercial use inquiries, please contact
+              our booking team.
             </p>
           </div>
         </div>

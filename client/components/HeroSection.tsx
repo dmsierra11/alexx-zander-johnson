@@ -1,25 +1,31 @@
-import { Button } from './ui/button';
+import { Button } from "./ui/button";
 
 export function HeroSection() {
   const scrollToSection = (sectionId: string) => {
     const element = document.getElementById(sectionId);
     if (element) {
-      element.scrollIntoView({ behavior: 'smooth' });
+      element.scrollIntoView({ behavior: "smooth" });
     }
   };
 
   return (
-    <section id="home" className="relative h-screen flex items-center justify-center overflow-hidden">
+    <section
+      id="home"
+      className="relative h-screen flex items-center justify-center overflow-hidden"
+    >
       {/* Background Video */}
       <div className="absolute inset-0 w-full h-full">
-        <video 
-          autoPlay 
-          muted 
-          loop 
-          playsInline 
+        <video
+          autoPlay
+          muted
+          loop
+          playsInline
           className="w-full h-full object-cover"
         >
-          <source src="https://cdn.pixabay.com/video/2022/11/16/140035-771117834_large.mp4" type="video/mp4" />
+          <source
+            src="https://cdn.pixabay.com/video/2022/11/16/140035-771117834_large.mp4"
+            type="video/mp4"
+          />
         </video>
         {/* Dark overlay */}
         <div className="absolute inset-0 bg-gradient-to-b from-cinematic-black/70 via-cinematic-black/50 to-cinematic-black/80"></div>
@@ -32,9 +38,9 @@ export function HeroSection() {
           <br />
           <span className="text-foreground">Global Energy.</span>
         </h1>
-        
+
         <p className="text-xl md:text-2xl text-muted-foreground mb-8 max-w-2xl mx-auto leading-relaxed">
-          Belgian-born. Barcelona-based. 
+          Belgian-born. Barcelona-based.
           <br />
           Pushing underground electronic music forward.
         </p>
@@ -43,16 +49,18 @@ export function HeroSection() {
           <Button
             size="lg"
             className="bg-neon-purple hover:bg-neon-purple/80 text-white font-semibold px-8 py-4 text-lg glow-purple transition-all duration-300"
-            onClick={() => window.open('https://soundcloud.com/alexx_zander', '_blank')}
+            onClick={() =>
+              window.open("https://soundcloud.com/alexx_zander", "_blank")
+            }
           >
             Listen on SoundCloud
           </Button>
-          
-          <Button 
-            size="lg" 
+
+          <Button
+            size="lg"
             variant="outline"
             className="border-neon-teal text-neon-teal hover:bg-neon-teal hover:text-black font-semibold px-8 py-4 text-lg glow-teal transition-all duration-300"
-            onClick={() => scrollToSection('contact')}
+            onClick={() => scrollToSection("contact")}
           >
             Book Alexx
           </Button>

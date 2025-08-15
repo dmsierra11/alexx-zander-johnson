@@ -29,31 +29,55 @@ export function AboutSection() {
           <div className="order-1 lg:order-2 space-y-6">
             <div className="prose prose-lg text-foreground">
               <p className="text-xl leading-relaxed mb-6">
-                From the industrial heart of <span className="text-neon-teal font-semibold">Ghent, Belgium</span>,
-                to the vibrant electronic scene of <span className="text-neon-purple font-semibold">Barcelona</span>,
-                <span className="text-gradient font-semibold"> Alexx Zander Johnson's</span> journey
-                represents the evolution of underground electronic music.
+                From the industrial heart of{" "}
+                <span className="text-neon-teal font-semibold">
+                  Ghent, Belgium
+                </span>
+                , to the vibrant electronic scene of{" "}
+                <span className="text-neon-purple font-semibold">
+                  Barcelona
+                </span>
+                ,
+                <span className="text-gradient font-semibold">
+                  {" "}
+                  Alexx Zander Johnson's
+                </span>{" "}
+                journey represents the evolution of underground electronic
+                music.
               </p>
 
               <p className="text-lg leading-relaxed mb-6 text-muted-foreground">
-                His breakthrough came after winning a DJ contest at <span className="text-neon-teal font-semibold">Decadance</span>,
-                one of Europe's most respected electronic music events. This pivotal moment launched a career
-                that would see him become a resident at <span className="text-neon-purple font-semibold">Phasefour Ghent </span>
+                His breakthrough came after winning a DJ contest at{" "}
+                <span className="text-neon-teal font-semibold">Decadance</span>,
+                one of Europe's most respected electronic music events. This
+                pivotal moment launched a career that would see him become a
+                resident at{" "}
+                <span className="text-neon-purple font-semibold">
+                  Phasefour Ghent{" "}
+                </span>
                 on Urgent.fm, where he honed his signature sound.
               </p>
 
               <p className="text-lg leading-relaxed mb-6 text-muted-foreground">
                 The move to Barcelona marked a new chapter. Here, Alexx founded
-                <span className="text-neon-purple font-semibold"> Railroad Recordings</span>,
-                an independent label dedicated to showcasing underground electronic music,
-                and launched <span className="text-neon-teal font-semibold">Railroad Sessions</span>,
-                his monthly radio show on DI.FM that has become a destination for progressive, minimal, and techno enthusiasts worldwide.
+                <span className="text-neon-purple font-semibold">
+                  {" "}
+                  Railroad Recordings
+                </span>
+                , an independent label dedicated to showcasing underground
+                electronic music, and launched{" "}
+                <span className="text-neon-teal font-semibold">
+                  Railroad Sessions
+                </span>
+                , his monthly radio show on DI.FM that has become a destination
+                for progressive, minimal, and techno enthusiasts worldwide.
               </p>
 
               <p className="text-lg leading-relaxed mb-8 text-muted-foreground">
-                Today, Alexx continues to push the boundaries of underground electronic music,
-                creating immersive sonic experiences that bridge the gap between intimate club moments
-                and transcendent dancefloor journeys.
+                Today, Alexx continues to push the boundaries of underground
+                electronic music, creating immersive sonic experiences that
+                bridge the gap between intimate club moments and transcendent
+                dancefloor journeys.
               </p>
             </div>
 
@@ -64,11 +88,17 @@ export function AboutSection() {
                 <p className="text-muted-foreground">Railroad Recordings</p>
               </div>
               <div className="bg-card/30 border border-border/20 rounded-lg p-4">
-                <h4 className="font-semibold text-neon-teal mb-2">Radio Show</h4>
-                <p className="text-muted-foreground">Railroad Sessions on DI.FM</p>
+                <h4 className="font-semibold text-neon-teal mb-2">
+                  Radio Show
+                </h4>
+                <p className="text-muted-foreground">
+                  Railroad Sessions on DI.FM
+                </p>
               </div>
               <div className="bg-card/30 border border-border/20 rounded-lg p-4">
-                <h4 className="font-semibold text-neon-purple mb-2">Resident</h4>
+                <h4 className="font-semibold text-neon-purple mb-2">
+                  Resident
+                </h4>
                 <p className="text-muted-foreground">Bejaus Cafè</p>
               </div>
               <div className="bg-card/30 border border-border/20 rounded-lg p-4">
