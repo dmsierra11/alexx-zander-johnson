@@ -13,8 +13,8 @@ export function AboutSection() {
           <div className="order-2 lg:order-1">
             <div className="relative">
               <div className="aspect-square rounded-2xl overflow-hidden bg-gradient-to-br from-neon-purple/20 to-neon-teal/20 p-1">
-                <img 
-                  src="https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=600&h=600&fit=crop&crop=face" 
+                <img
+                  src="https://cdn.builder.io/api/v1/image/assets%2Fb483dd511682401f9f00211e632d2fcf%2F460ffe75ae27439c9a433fa4245e9dc8?format=webp&width=800"
                   alt="Alexx Zander Johnson portrait"
                   className="w-full h-full object-cover rounded-xl"
                 />
