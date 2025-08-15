@@ -30,8 +30,8 @@ export function RailroadSessionsSection() {
             </div>
 
             <p className="text-lg text-muted-foreground leading-relaxed">
-              Railroad Sessions is Alexx's signature radio show, broadcasting weekly on DI.FM. 
-              Each episode takes listeners on a carefully curated journey through the underground, 
+              Railroad Sessions is Alexx's signature radio show, broadcasting monthly on DI.FM.
+              Each episode takes listeners on a carefully curated journey through the underground,
               featuring exclusive tracks, unreleased gems, and the latest in deep house, minimal, and techno.
             </p>
 
