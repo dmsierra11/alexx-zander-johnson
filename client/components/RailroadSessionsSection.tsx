@@ -68,7 +68,7 @@ export function RailroadSessionsSection() {
                 <div className="absolute inset-0 bg-gradient-to-t from-cinematic-black/80 via-transparent to-transparent"></div>
                 <div className="absolute bottom-6 left-6 right-6">
                   <h4 className="text-xl font-bold text-foreground mb-2">Underground Soundscapes</h4>
-                  <p className="text-muted-foreground">Curated weekly by Alexx Zander Johnson</p>
+                  <p className="text-muted-foreground">Curated monthly by Alexx Zander Johnson</p>
                 </div>
                 <div className="absolute top-6 right-6">
                   <div className="w-12 h-12 bg-neon-purple/20 backdrop-blur-sm rounded-full flex items-center justify-center">
