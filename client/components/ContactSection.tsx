@@ -32,16 +32,6 @@ const socialLinks: SocialLink[] = [
     name: 'Beatport',
     url: 'https://www.beatport.com/artist/alexx-zander-johnson/1107261',
     icon: '🎶'
-  },
-  {
-    name: 'Mixcloud',
-    url: 'https://www.mixcloud.com/alexx-zander/',
-    icon: '🎚️'
-  },
-  {
-    name: 'Apple Music',
-    url: 'https://music.apple.com/us/artist/alexx-zander-johnson/1668595892',
-    icon: '🍎'
   }
 ];
 
