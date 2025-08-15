@@ -45,12 +45,6 @@ export function Header() {
               Home
             </button>
             <button
-              onClick={() => scrollToSection('music')}
-              className="text-foreground hover:text-neon-purple transition-colors"
-            >
-              Music
-            </button>
-            <button
               onClick={() => scrollToSection('railroad-sessions')}
               className="text-foreground hover:text-neon-purple transition-colors"
             >
