@@ -8,9 +8,9 @@ export default function Index() {
   return (
     <div className="min-h-screen">
       <HeroSection />
-      <RailroadSessionsSection />
-      <RailroadRecordingsSection />
       <AboutSection />
+      <RailroadSessionsSection />
+      <RailroadRecordingsSection />      
       <ContactSection />
     </div>
   );
