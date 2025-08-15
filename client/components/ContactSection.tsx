@@ -169,9 +169,9 @@ export function ContactSection() {
                   let's create an unforgettable sonic experience.
                 </p>
                 <div className="flex flex-wrap gap-2">
-                  <span className="px-3 py-1 bg-neon-purple/10 text-neon-purple text-sm rounded-full">Deep House</span>
                   <span className="px-3 py-1 bg-neon-teal/10 text-neon-teal text-sm rounded-full">Minimal</span>
                   <span className="px-3 py-1 bg-neon-purple/10 text-neon-purple text-sm rounded-full">Techno</span>
+                  <span className="px-3 py-1 bg-neon-purple/10 text-neon-purple text-sm rounded-full">Progressive House</span>
                   <span className="px-3 py-1 bg-neon-teal/10 text-neon-teal text-sm rounded-full">Underground</span>
                 </div>
               </CardContent>
