@@ -38,31 +38,37 @@ export function Header() {
           </Link>
           
           <div className="hidden md:flex items-center space-x-8">
-            <button 
+            <button
               onClick={() => scrollToSection('home')}
               className="text-foreground hover:text-neon-purple transition-colors"
             >
               Home
             </button>
-            <button 
+            <button
               onClick={() => scrollToSection('music')}
               className="text-foreground hover:text-neon-purple transition-colors"
             >
               Music
             </button>
-            <button 
-              onClick={() => scrollToSection('events')}
+            <button
+              onClick={() => scrollToSection('railroad-sessions')}
               className="text-foreground hover:text-neon-purple transition-colors"
             >
-              Events
+              Railroad Sessions
             </button>
-            <button 
+            <button
+              onClick={() => scrollToSection('railroad-recordings')}
+              className="text-foreground hover:text-neon-purple transition-colors"
+            >
+              Railroad Recordings
+            </button>
+            <button
               onClick={() => scrollToSection('about')}
               className="text-foreground hover:text-neon-purple transition-colors"
             >
               About
             </button>
-            <button 
+            <button
               onClick={() => scrollToSection('contact')}
               className="text-foreground hover:text-neon-purple transition-colors"
             >
