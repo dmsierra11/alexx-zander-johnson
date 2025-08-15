@@ -47,7 +47,7 @@ export function AboutSection() {
                 <span className="text-neon-purple font-semibold"> Railroad Recordings</span>,
                 an independent label dedicated to showcasing underground electronic music,
                 and launched <span className="text-neon-teal font-semibold">Railroad Sessions</span>,
-                his weekly radio show on DI.FM that has become a destination for deep, minimal, and techno enthusiasts worldwide.
+                his monthly radio show on DI.FM that has become a destination for deep, minimal, and techno enthusiasts worldwide.
               </p>
 
               <p className="text-lg leading-relaxed mb-8 text-muted-foreground">
