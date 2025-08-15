@@ -69,7 +69,7 @@ export function AboutSection() {
               </div>
               <div className="bg-card/30 border border-border/20 rounded-lg p-4">
                 <h4 className="font-semibold text-neon-purple mb-2">Resident</h4>
-                <p className="text-muted-foreground">Phasefour Ghent</p>
+                <p className="text-muted-foreground">Bejaus Cafè</p>
               </div>
               <div className="bg-card/30 border border-border/20 rounded-lg p-4">
                 <h4 className="font-semibold text-neon-teal mb-2">Journey</h4>
