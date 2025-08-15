@@ -94,7 +94,6 @@ export function RailroadSessionsSection() {
                   <span className="text-sm text-muted-foreground">{ep.date}</span>
                 </div>
                 <h4 className="font-bold text-foreground mb-1">{ep.episode}</h4>
-                <p className="text-neon-purple mb-4">{ep.title}</p>
                 <Button
                   variant="ghost"
                   size="sm"
