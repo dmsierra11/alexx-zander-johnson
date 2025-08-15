@@ -15,28 +15,33 @@ interface SocialLink {
 const socialLinks: SocialLink[] = [
   {
     name: 'Spotify',
-    url: 'https://open.spotify.com/artist/alexxzanderjohnson',
+    url: 'https://open.spotify.com/artist/3Xivr0pcXK23TZxxqyd8nh?si=0L9wV_jGSQKRgWjqk4l-ng',
     icon: '🎵'
   },
   {
     name: 'SoundCloud',
-    url: 'https://soundcloud.com/alexxzanderjohnson',
+    url: 'https://soundcloud.com/alexx_zander',
     icon: '🎧'
   },
   {
     name: 'Instagram',
-    url: 'https://instagram.com/alexxzanderjohnson',
+    url: 'https://www.instagram.com/alexxzander.johnson/',
     icon: '📷'
   },
   {
-    name: 'YouTube',
-    url: 'https://youtube.com/@alexxzanderjohnson',
-    icon: '📺'
+    name: 'Beatport',
+    url: 'https://www.beatport.com/artist/alexx-zander-johnson/1107261',
+    icon: '🎶'
   },
   {
     name: 'Mixcloud',
-    url: 'https://mixcloud.com/alexxzanderjohnson',
+    url: 'https://www.mixcloud.com/alexx-zander/',
     icon: '🎚️'
+  },
+  {
+    name: 'Apple Music',
+    url: 'https://music.apple.com/us/artist/alexx-zander-johnson/1668595892',
+    icon: '🍎'
   }
 ];
 
