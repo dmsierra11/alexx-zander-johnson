@@ -29,24 +29,31 @@ export function AboutSection() {
           <div className="order-1 lg:order-2 space-y-6">
             <div className="prose prose-lg text-foreground">
               <p className="text-xl leading-relaxed mb-6">
-                <span className="text-neon-purple font-semibold">Alexx Zander Johnson</span> began 
-                DJing in <span className="text-neon-teal">Ghent, Belgium</span>, and rose to 
-                prominence after winning a DJ contest at Decadance, one of Europe's most 
-                respected electronic music events.
+                From the industrial heart of <span className="text-neon-teal font-semibold">Ghent, Belgium</span>,
+                to the vibrant electronic scene of <span className="text-neon-purple font-semibold">Barcelona</span>,
+                <span className="text-gradient font-semibold"> Alexx Zander Johnson's</span> journey
+                represents the evolution of underground electronic music.
               </p>
-              
+
               <p className="text-lg leading-relaxed mb-6 text-muted-foreground">
-                Now based in <span className="text-neon-teal font-semibold">Barcelona</span>, 
-                Alexx has established himself as a driving force in the underground electronic 
-                scene, blending deep house, minimal, and techno into immersive, high-energy 
-                sets that captivate dancefloors across Europe.
+                His breakthrough came after winning a DJ contest at <span className="text-neon-teal font-semibold">Decadance</span>,
+                one of Europe's most respected electronic music events. This pivotal moment launched a career
+                that would see him become a resident at <span className="text-neon-purple font-semibold">Phasefour Ghent</span>
+                on Urgent.fm, where he honed his signature sound.
               </p>
-              
+
+              <p className="text-lg leading-relaxed mb-6 text-muted-foreground">
+                The move to Barcelona marked a new chapter. Here, Alexx founded
+                <span className="text-neon-purple font-semibold"> Railroad Recordings</span>,
+                an independent label dedicated to showcasing underground electronic music,
+                and launched <span className="text-neon-teal font-semibold">Railroad Sessions</span>,
+                his weekly radio show on DI.FM that has become a destination for deep, minimal, and techno enthusiasts worldwide.
+              </p>
+
               <p className="text-lg leading-relaxed mb-8 text-muted-foreground">
-                As the founder of <span className="text-neon-purple font-semibold">Railroad Recordings</span> and 
-                resident of <span className="text-neon-purple font-semibold">Phasefour Ghent</span> on 
-                Urgent.fm, Alexx continues to push the boundaries of underground electronic 
-                music, creating sonic journeys that transport listeners to new dimensions.
+                Today, Alexx continues to push the boundaries of underground electronic music,
+                creating immersive sonic experiences that bridge the gap between intimate club moments
+                and transcendent dancefloor journeys.
               </p>
             </div>
 
