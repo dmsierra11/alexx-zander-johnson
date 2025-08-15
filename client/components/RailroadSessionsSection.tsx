@@ -11,7 +11,7 @@ export function RailroadSessionsSection() {
             <span className="text-gradient">Railroad Sessions</span>
           </h2>
           <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
-            A weekly journey through underground electronic music on DI.FM, 
+            A monthly journey through underground electronic music on DI.FM,
             showcasing the deepest sounds from around the globe.
           </p>
         </div>
