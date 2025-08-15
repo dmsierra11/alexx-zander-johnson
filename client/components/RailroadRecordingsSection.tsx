@@ -15,30 +15,30 @@ interface Release {
 const releases: Release[] = [
   {
     id: '1',
-    title: 'Underground Pulse EP',
-    artist: 'Alexx Zander Johnson',
+    title: 'Make Love Not War',
+    artist: 'Railroad Recordings',
     coverArt: 'https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?w=400&h=400&fit=crop',
     releaseDate: '2024',
-    catalogNumber: 'RR001',
-    url: 'https://open.spotify.com/album/example1'
+    catalogNumber: 'RR004',
+    url: 'https://www.beatport.com/es/release/make-love-not-war/4833256'
   },
   {
     id: '2',
-    title: 'Minimal Dreams',
-    artist: 'Various Artists',
+    title: 'Best of Both Worlds EP',
+    artist: 'Railroad Recordings',
     coverArt: 'https://images.unsplash.com/photo-1571330735066-03aaa9429d89?w=400&h=400&fit=crop',
     releaseDate: '2024',
-    catalogNumber: 'RR002',
-    url: 'https://open.spotify.com/album/example2'
+    catalogNumber: 'RR003',
+    url: 'https://www.beatport.com/es/release/best-of-both-worlds-ep/4520011'
   },
   {
     id: '3',
-    title: 'Deep Resonance',
-    artist: 'Collaborative Project',
+    title: 'Lopez EP',
+    artist: 'Railroad Recordings',
     coverArt: 'https://images.unsplash.com/photo-1511379938547-c1f69419868d?w=400&h=400&fit=crop',
-    releaseDate: '2023',
-    catalogNumber: 'RR003',
-    url: 'https://open.spotify.com/album/example3'
+    releaseDate: '2024',
+    catalogNumber: 'RR002',
+    url: 'https://www.beatport.com/es/release/lopez-ep/4310433'
   }
 ];
 
