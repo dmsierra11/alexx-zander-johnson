@@ -150,9 +150,9 @@ export function ContactSection() {
           </Card>
 
           {/* Social Links & Info */}
-          <div className="space-y-8">
+          <div className="space-y-6 md:space-y-8">
             <Card className="bg-card/30 border-border/20">
-              <CardContent className="p-8">
+              <CardContent className="p-4 md:p-8">
                 <h3 className="text-xl font-bold text-foreground mb-6">
                   Follow the Journey
                 </h3>
