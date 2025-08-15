@@ -104,7 +104,7 @@ export function RailroadRecordingsSection() {
           </div>
 
           {/* Visual Element */}
-          <Card className="bg-card/20 border-border/20 overflow-hidden">
+          <Card className="order-1 lg:order-2 bg-card/20 border-border/20 overflow-hidden">
             <CardContent className="p-0">
               <div className="relative aspect-square bg-gradient-to-br from-neon-teal/20 to-neon-purple/20">
                 <img
