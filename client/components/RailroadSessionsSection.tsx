@@ -60,10 +60,10 @@ export function RailroadSessionsSection() {
           <Card className="bg-card/20 border-border/20 overflow-hidden">
             <CardContent className="p-0">
               <div className="relative aspect-video bg-gradient-to-br from-neon-purple/20 to-neon-teal/20">
-                <img 
-                  src="https://images.unsplash.com/photo-1598488035139-bdbb2231ce04?w=600&h=400&fit=crop" 
-                  alt="Railroad Sessions studio setup"
-                  className="w-full h-full object-cover opacity-80"
+                <img
+                  src="https://cdn.builder.io/api/v1/image/assets%2Fb483dd511682401f9f00211e632d2fcf%2F41da65ddbdb14175ae777c162f754735?format=webp&width=800"
+                  alt="Railroad Sessions promotional image"
+                  className="w-full h-full object-cover opacity-90"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-cinematic-black/80 via-transparent to-transparent"></div>
                 <div className="absolute bottom-6 left-6 right-6">
