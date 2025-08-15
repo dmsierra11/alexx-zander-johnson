@@ -18,7 +18,7 @@ export function RailroadSessionsSection() {
 
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center mb-16">
           {/* Radio Show Info */}
-          <div className="space-y-6">
+          <div className="order-2 lg:order-1 space-y-6">
             <div className="flex items-center gap-3 mb-6">
               <div className="w-12 h-12 bg-neon-purple/20 rounded-full flex items-center justify-center">
                 <Radio className="w-6 h-6 text-neon-purple" />
