@@ -83,9 +83,9 @@ export function RailroadSessionsSection() {
 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
           {[
-            { episode: "Episode 047", title: "Deep Underground", date: "Jan 20, 2025" },
-            { episode: "Episode 046", title: "Barcelona Nights", date: "Jan 13, 2025" },
-            { episode: "Episode 045", title: "Minimal Journeys", date: "Jan 06, 2025" }
+            { episode: "Episode 109", title: "Underground Journeys", date: "Aug 8, 2025", url: "https://www.di.fm/shows/railroad-sessions/episodes/109" },
+            { episode: "Episode 108", title: "Deep Explorations", date: "Jul 11, 2025", url: "https://www.di.fm/shows/railroad-sessions/episodes/108" },
+            { episode: "Episode 107", title: "Sonic Landscapes", date: "Jun 13, 2025", url: "https://www.di.fm/shows/railroad-sessions/episodes/107" }
           ].map((ep) => (
             <Card key={ep.episode} className="group bg-card/30 border-border/20 hover:border-neon-purple/30 transition-all duration-300">
               <CardContent className="p-6">
