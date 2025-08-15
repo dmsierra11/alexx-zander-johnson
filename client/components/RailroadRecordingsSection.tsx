@@ -92,7 +92,7 @@ export function RailroadRecordingsSection() {
               </div>
               <div className="bg-card/30 border border-border/20 rounded-lg p-4 text-center">
                 <Disc3 className="w-6 h-6 text-neon-teal mx-auto mb-2" />
-                <h4 className="font-semibold text-foreground mb-1">8</h4>
+                <h4 className="font-semibold text-foreground mb-1">50+</h4>
                 <p className="text-sm text-muted-foreground">Releases</p>
               </div>
               <div className="bg-card/30 border border-border/20 rounded-lg p-4 text-center">
