@@ -72,7 +72,7 @@ export function RailroadRecordingsSection() {
             <p className="text-lg text-muted-foreground leading-relaxed">
               Railroad Recordings was born from Alexx's vision to create a platform for 
               underground electronic music that doesn't compromise on artistic integrity. 
-              The label focuses on deep house, minimal, and techno, providing a home for 
+              The label focuses on progressive house, minimal, and techno, providing a home for 
               both emerging talents and established artists who share the same passion 
               for pushing sonic boundaries.
             </p>
