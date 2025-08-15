@@ -158,16 +158,16 @@ export function RailroadRecordingsSection() {
         </div>
 
         <div className="text-center">
-          <Button 
+          <Button
             variant="outline"
             size="lg"
             className="border-neon-teal text-neon-teal hover:bg-neon-teal hover:text-black px-8 py-3 font-semibold mr-4"
-            onClick={() => window.open('https://railroadrecordings.bandcamp.com', '_blank')}
+            onClick={() => window.open('https://www.beatport.com/label/railroad-recordings/50502', '_blank')}
           >
             <ExternalLink className="w-4 h-4 mr-2" />
-            View Catalog
+            View Catalog on Beatport
           </Button>
-          <Button 
+          <Button
             variant="outline"
             size="lg"
             className="border-neon-purple text-neon-purple hover:bg-neon-purple hover:text-white px-8 py-3 font-semibold"
