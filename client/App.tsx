@@ -31,4 +31,9 @@ const App = () => (
   </QueryClientProvider>
 );
 
-createRoot(document.getElementById("root")!).render(<App />);
+// Ensure createRoot is only called once
+const rootElement = document.getElementById("root")!;
+if (!rootElement.getAttribute('data-react-root')) {
+  rootElement.setAttribute('data-react-root', 'true');
+  createRoot(rootElement).render(<App />);
+}
