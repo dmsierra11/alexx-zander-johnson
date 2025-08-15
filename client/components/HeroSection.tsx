@@ -48,7 +48,7 @@ export function HeroSection() {
         <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
           <Button
             size="lg"
-            className="bg-neon-purple hover:bg-neon-purple/80 text-white font-semibold px-8 py-4 text-lg glow-purple transition-all duration-300"
+            className="bg-neon-purple hover:bg-neon-purple/80 text-white font-semibold px-8 py-4 text-lg glow-purple transition-all duration-300 w-full sm:w-auto"
             onClick={() =>
               window.open("https://soundcloud.com/alexx_zander", "_blank")
             }
@@ -59,7 +59,7 @@ export function HeroSection() {
           <Button
             size="lg"
             variant="outline"
-            className="border-neon-teal text-neon-teal hover:bg-neon-teal hover:text-black font-semibold px-8 py-4 text-lg glow-teal transition-all duration-300"
+            className="border-neon-teal text-neon-teal hover:bg-neon-teal hover:text-black font-semibold px-8 py-4 text-lg glow-teal transition-all duration-300 w-full sm:w-auto"
             onClick={() => scrollToSection("contact")}
           >
             Book Alexx
