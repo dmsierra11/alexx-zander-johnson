@@ -40,10 +40,10 @@ export function HeroSection() {
         </p>
 
         <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
-          <Button 
-            size="lg" 
+          <Button
+            size="lg"
             className="bg-neon-purple hover:bg-neon-purple/80 text-white font-semibold px-8 py-4 text-lg glow-purple transition-all duration-300"
-            onClick={() => window.open('https://open.spotify.com/artist/alexxzanderjohnson', '_blank')}
+            onClick={() => window.open('https://open.spotify.com/artist/3Xivr0pcXK23TZxxqyd8nh?si=0L9wV_jGSQKRgWjqk4l-ng', '_blank')}
           >
             Listen on Spotify
           </Button>
