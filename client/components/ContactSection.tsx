@@ -175,7 +175,7 @@ export function ContactSection() {
             </Card>
 
             <Card className="bg-card/30 border-border/20">
-              <CardContent className="p-8">
+              <CardContent className="p-4 md:p-8">
                 <h3 className="text-xl font-bold text-foreground mb-4">
                   Based in Barcelona
                 </h3>
