@@ -81,7 +81,7 @@ export function ContactSection() {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 md:gap-12">
           {/* Contact Form */}
           <Card className="bg-card/30 border-border/20">
-            <CardContent className="p-8">
+            <CardContent className="p-4 md:p-8">
               <div className="flex items-center gap-2 mb-6">
                 <Mail className="w-5 h-5 text-neon-purple" />
                 <h3 className="text-xl font-bold text-foreground">
